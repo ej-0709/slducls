@@ -1,29 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>WEB1 - html</title>
+  <title>WEB - CSS</title>
   <meta charset="utf-8">
-</head>
-<a href='My favorite actor'><h1>My favorite actor</h1></a>
-<ol>
-  <li><a href="1.html">이종석</li>
-  <li><a href="2.html">남주혁</li>
-  <li><a href="3.html">변백현</li>
-</ol>
-<body>
-  <p><h1>이종석</h1>
-  <img src="peng lover.png" with="100%">
-  <h3>1.My husband</h3>
-  <h4>lee jong-seok is an actor. he's so handsome.
-  He recently filmed a drama called 'Big Mouse' with yoona.
-  He is still single. So wouldn't I have a chance?</h4>
-  <h3>2.My destiny</h3>
-  <h4>Let me explain why he is meant be with me.
-  First he loves me and I love him too.
-  If this is not enough, you don't need to know</h4>
-  <h3> 3.My boyfriend </h3>
-  <h4>But there is sad news.
-  He still seems to have his first love in his mind
-  But I'm fine. no, it's really okay.
-  Because I also think of my first love whenever it is hard. </h4></p>
-</body>
+<style>
+    body{
+      margin:0;
+    }
+    a{
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bootom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+        padding-left:25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <div id="grid">
+    <ol>
+      <li><a href="1.html"
+  class="saw">HTML</a></li>
+      <li><a href="2.html" class="saw"
+  id="active">CSS</a></li>
+      <li><a href="3.html">JavaScript</a>
+  </li>
+    </ol>
+    <h2>CSS</h2>
+    <p>Cascading Style Sheets (css) is a
+      style sheet language used for
+      describing the presentation of a
+      document written in a markup language.
+    </p>
+       </div>
+     </div>
+    </body>
+    </html>
